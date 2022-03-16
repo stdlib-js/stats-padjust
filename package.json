@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-padjust",
-  "version": "0.0.7",
+  "version": "0.0.0",
   "description": "Adjust supplied p-values for multiple comparisons via a specified method.",
   "license": "Apache-2.0",
   "author": {
