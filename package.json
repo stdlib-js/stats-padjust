@@ -46,7 +46,8 @@
     "@stdlib/math-base-special-max": "^0.0.x",
     "@stdlib/math-base-special-min": "^0.0.x",
     "@stdlib/stats-base-cumax": "^0.0.x",
-    "@stdlib/stats-base-cumin": "^0.0.x"
+    "@stdlib/stats-base-cumin": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x"
   },
   "devDependencies": {
     "@stdlib/assert-is-array": "^0.0.x",
