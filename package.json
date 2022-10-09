@@ -50,7 +50,6 @@
     "@stdlib/string-format": "^0.0.x"
   },
   "devDependencies": {
-    "@stdlib/assert-is-array": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
     "@stdlib/constants-float64-eps": "^0.0.x",
     "@stdlib/math-base-special-abs": "^0.0.x",
