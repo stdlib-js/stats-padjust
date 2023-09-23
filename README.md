@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import padjust from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-padjust@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-padjust/tags). For example,
+
+```javascript
 import padjust from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-padjust@v0.1.0-deno/mod.js';
 ```
 
@@ -95,7 +100,7 @@ var out = padjust( pvalues, 'bh', 10 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import padjust from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-padjust@v0.1.0-deno/mod.js';
+import padjust from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-padjust@deno/mod.js';
 
 var pvalues = [ 0.008, 0.03, 0.123, 0.6, 0.2 ];
 
