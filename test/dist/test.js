@@ -28,14 +28,14 @@ var padjust = require( './../../dist' );
 
 // FIXTURES //
 
-var CUSTOM_HOMMEL = require( './../..xtures/r/custom_hommel.json' );
-var BONFERRONI = require( './../..xtures/r/bonferroni.json' );
-var CUSTOM_BY = require( './../..xtures/r/custom_by.json' );
-var CUSTOM = require( './../..xtures/r/custom.json' );
-var HOMMEL = require( './../..xtures/r/hommel.json' );
-var HOLM = require( './../..xtures/r/holm.json' );
-var BH = require( './../..xtures/r/bh.json' );
-var BY = require( './../..xtures/r/by.json' );
+var CUSTOM_HOMMEL = require( './../fixtures/r/custom_hommel.json' );
+var BONFERRONI = require( './../fixtures/r/bonferroni.json' );
+var CUSTOM_BY = require( './../fixtures/r/custom_by.json' );
+var CUSTOM = require( './../fixtures/r/custom.json' );
+var HOMMEL = require( './../fixtures/r/hommel.json' );
+var HOLM = require( './../fixtures/r/holm.json' );
+var BH = require( './../fixtures/r/bh.json' );
+var BY = require( './../fixtures/r/by.json' );
 
 
 // TESTS //
