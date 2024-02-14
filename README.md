@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import padjust from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-padjust@deno/mod.js';
+import padjust from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-padjust@v0.2.0-deno/mod.js';
 ```
 
 #### padjust( pvals, method\[, comparisons] )
@@ -95,7 +95,7 @@ var out = padjust( pvalues, 'bh', 10 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import padjust from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-padjust@deno/mod.js';
+import padjust from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-padjust@v0.2.0-deno/mod.js';
 
 var pvalues = [ 0.008, 0.03, 0.123, 0.6, 0.2 ];
 
