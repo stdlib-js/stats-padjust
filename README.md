@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import padjust from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-padjust@esm/index.mjs';
+import padjust from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-padjust@v0.2.0-esm/index.mjs';
 ```
 
 #### padjust( pvals, method\[, comparisons] )
@@ -100,7 +100,7 @@ var out = padjust( pvalues, 'bh', 10 );
 <body>
 <script type="module">
 
-import padjust from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-padjust@esm/index.mjs';
+import padjust from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-padjust@v0.2.0-esm/index.mjs';
 
 var pvalues = [ 0.008, 0.03, 0.123, 0.6, 0.2 ];
 
