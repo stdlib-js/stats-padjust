@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import padjust from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-padjust@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-padjust/tags). For example,
+
+```javascript
 import padjust from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-padjust@v0.2.1-esm/index.mjs';
 ```
 
@@ -100,7 +105,7 @@ var out = padjust( pvalues, 'bh', 10 );
 <body>
 <script type="module">
 
-import padjust from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-padjust@v0.2.1-esm/index.mjs';
+import padjust from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-padjust@esm/index.mjs';
 
 var pvalues = [ 0.008, 0.03, 0.123, 0.6, 0.2 ];
 
