@@ -35,32 +35,38 @@ limitations under the License.
 
 > Adjust supplied p-values for multiple comparisons.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/stats-padjust
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var padjust = require( '@stdlib/stats-padjust' );
+padjust = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-padjust@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var padjust = require( 'path/to/vendor/umd/stats-padjust/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-padjust@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.padjust;
+})();
+</script>
 ```
 
 #### padjust( pvals, method\[, comparisons] )
@@ -112,8 +118,13 @@ var out = padjust( pvalues, 'bh', 10 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var padjust = require( '@stdlib/stats-padjust' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-padjust@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 var pvalues = [ 0.008, 0.03, 0.123, 0.6, 0.2 ];
 
@@ -131,6 +142,11 @@ out = padjust( pvalues, 'holm' );
 
 out = padjust( pvalues, 'hommel' );
 // returns [ 0.16, 0.6, 1.0, 1.0, 1.0 ]
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
