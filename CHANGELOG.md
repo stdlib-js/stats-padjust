@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-13)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`15e9d74`](https://github.com/stdlib-js/stdlib/commit/15e9d746f6bf930594f0e48a82e61e7030edade8) - **bench:** refactor to use string interpolation and array literals in `stats/padjust` [(#10208)](https://github.com/stdlib-js/stdlib/pull/10208) _(by Bhargav Dabhade)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Bhargav Dabhade
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-08)
