@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-05)
+## Unreleased (2026-04-08)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`bd60a20`](https://github.com/stdlib-js/stdlib/commit/bd60a209ca4b0989663edbbc591bc7da80294827) - **build:** update R version to 4.2.0 in lint workflows [(#11262)](https://github.com/stdlib-js/stdlib/pull/11262) _(by Mara Averick)_
 -   [`15e9d74`](https://github.com/stdlib-js/stdlib/commit/15e9d746f6bf930594f0e48a82e61e7030edade8) - **bench:** refactor to use string interpolation and array literals in `stats/padjust` [(#10208)](https://github.com/stdlib-js/stdlib/pull/10208) _(by Bhargav Dabhade)_
 
 </details>
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Bhargav Dabhade
+-   Mara Averick
 
 </section>
 
